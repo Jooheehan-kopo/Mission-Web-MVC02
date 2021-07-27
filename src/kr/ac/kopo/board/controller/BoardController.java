@@ -45,7 +45,7 @@ public class BoardController {
 
 		ModelAndView mav = new ModelAndView();
 		mav.setView("/board/list.jsp");
-		mav.addAttribute("list", boardList);
+		mav.addAttribute("list", boardList);  //공유영역에 넣어주라고 mav에 넣어줌.
 
 		// request공유영역에 등록
 		Map<String, Object> model = mav.getModel();

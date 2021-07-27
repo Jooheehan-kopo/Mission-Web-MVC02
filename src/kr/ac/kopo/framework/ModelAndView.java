@@ -35,7 +35,7 @@ public class ModelAndView {
 	}
 	
 	//model에 key, value 집어넣기
-	public void addAttribute(String key, Object value) {
+	public void addAttribute(String key, Object value) {  //묵시적 형변환을 위해 object 인것임.
 		model.put(key, value);
 	}
 	//boardcont 로 가서 타입 바꿔줘

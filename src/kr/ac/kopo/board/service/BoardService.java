@@ -9,7 +9,7 @@ public class BoardService {
 	
 	private BoardDAO dao;
 	
-	/* 리스너에서 만들어줌.
+	/* 리스너에서 만들어줌.0
 	 * public BoardService() { dao = new BoardDAO(); }
 	 *serlvet이 서로 값을 공유하기위해 만들어진 공간 : servletContext
 	 */

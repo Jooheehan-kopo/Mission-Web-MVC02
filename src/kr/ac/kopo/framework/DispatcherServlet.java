@@ -27,7 +27,7 @@ public class DispatcherServlet extends HttpServlet {
 	/**
 	 * @see Servlet#init(ServletConfig)
 	 */
-	public void init(ServletConfig config) throws ServletException {
+	public void init(ServletConfig config) throws ServletException {  //controller 이름을 가져옴(board,list)
 		String ctrlNames= config.getInitParameter("controllers");
 		//System.out.println(ctrlNames);
 		try {
